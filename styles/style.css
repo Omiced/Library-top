@@ -32,7 +32,7 @@ button{
   flex-direction: column;
   gap: 10px;
   align-items: center;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .list{
@@ -58,7 +58,7 @@ button{
 .form-book > button{
   width: 100%;
   padding: 0.5em;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 input[type="text"], input[type="number"]{
@@ -80,9 +80,9 @@ input[type="text"], input[type="number"]{
 /* books */
 .books_container{
   max-width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-  font-size: 18px;
+  margin: 1.25rem auto;
+  padding: 1.25rem;
+  font-size: 1.125rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   gap: 10px;
@@ -94,10 +94,15 @@ input[type="text"], input[type="number"]{
   min-width: 200px;
   display:grid;
   gap: 5px;
+  justify-items: center;
+}
+.card-buttons{
+  display: flex;
+  gap: 5px;
 }
 
-.btn-delete{
-  width: 100%;
-  font-size: 18px;
+.card-buttons > button{
+  width: 50%;
+  font-size: 1rem;
   padding: 0.3em;
 }
